@@ -76,10 +76,67 @@ dont forget to close and apply
 
 hiding view the inpatient/outpatient table to avoid confusion (in modelwindow)
 
+</details>
 
+
+<details>
+
+<summary>4. Data Visualization Blueprint</summary>
+
+You are expected to get a clear understanding about your data thru
+- Transformation
+- Modelling
+- Gaining domain expertise
+
+at this stage this is where we will hold meeting etc
+
+and make a blueprint for our dashboard
+
+there are2 pages; summary & detail
+
+divide into 4 section: top left, top right,middle and bottom section
+
+</details>
+
+
+<details>
+
+<summary>5. Dashboard layout & design</summary>
+
+_Tips:_ In view taskbar, enable gridline and snapping
+
+**We will be using DAX**
+- as to create dynamic data and create new measure
+
+i. As we want to put total wait list at any latest month (top left)
+
+For DAX, we will count the sum of wait list for the maximum date from the dataset
+> Latest Month Wait List = Calc(Sum(all_data(total))), All_data(Archive Date) = Max(All_data(Date))
+> to simplify, this is a calculation for the total wait list and filter it according to the latest month
+> and for previous year, use EDATE before max and minus 12 (for last year)
+
+ii. This is a section for avg wait list value for particular measure
+>but,there are an issue wth outliers, which is why we will also be using median
+
+a. we will ad toggle function (slicer) by adding blank table for avg and median
+>this will be a dummy table which does not hold any value apart from that two avg med
+
+b. add a measure to let us interact to switch between avg and median
+>basically,when we click avg, it will make a calculation with avg, and vice versa
+
+_add legend to main division,and add values if there is a filter or toggle, eg: for donut chart case type_
+
+on time bands
+
+_if there are too many duplicate values/; TRIM_
+
+_if there are similar values but different name, replace values_
 
 
 </details>
+
+
+
 
 <details>
 
