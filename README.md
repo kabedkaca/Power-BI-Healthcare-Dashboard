@@ -4,7 +4,7 @@ An ongoing project from AtoZ for Healthcare Dashboard Development Process
 #### Process
 <details>
 
-<summary>**1. Requirement Gathering Phase**</summary>
+<summary>1. Requirement Gathering Phase</summary>
 
 - Identify Stakeholder
   > establish point of contact (user who use dashboard, clarify your doubt)
@@ -41,7 +41,7 @@ Views required:
 
 <details>
 
-<summary>**2. Data Collection**</summary>
+<summary>2. Data Collection</summary>
 
 Data connectors: excel, csv, sql db, Azure, JSON, Web
 
@@ -61,7 +61,7 @@ load the data
 
 <details>
 
-<summary>**3. Data Transformation & Modelling**</summary>
+<summary>3. Data Transformation & Modelling</summary>
 
 _What you need to check_
 1. Data type (is correct with column content)
@@ -83,7 +83,7 @@ hiding view the inpatient/outpatient table to avoid confusion (in modelwindow)
 
 <details>
 
-<summary>**Insert Here**</summary>
+<summary>Insert Here</summary>
 
 </details>
 
