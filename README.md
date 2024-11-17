@@ -1,5 +1,5 @@
-# Power-BI-Healthcare-Dashboard
-An ongoing project from AtoZ for Healthcare Dashboard Development Process
+# Power-BI-Hospital-Patient-Wait-List-Dashboard
+An ongoing project from AtoZ for Hospital Patient Dashboard Development Process
 
 #### Process
 <details>
