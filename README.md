@@ -133,6 +133,11 @@ _if there are too many duplicate values/; TRIM_
 _if there are similar values but different name, replace values_
 
 
+For aesthetic; preference
+>but, for this
+>- GoogleImage, adobe stock, adobe color: dashboard design
+>- ss the dashboard,paste on ppt,resize accordingly
+>- 
 </details>
 
 
